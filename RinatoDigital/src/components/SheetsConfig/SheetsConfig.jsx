@@ -3,7 +3,7 @@ const enviarDatosASheet = async (datos) => {
 
   try {
     const response = await fetch(
-      "https://script.google.com/macros/s/AKfycbz35Du6jyKZj9SvkCKEgkE92g7CVAT5EEJIdEmod6l99F3V0d98BkaICdUdhj3ueh0lIQ/exec",
+      "https://sheet.best/api/sheets/b8b28b4a-dcde-42f8-9cf2-4f24a96dba15",
       {
         method: "POST",
         headers: {
